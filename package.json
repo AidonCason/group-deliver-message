@@ -9,14 +9,35 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {},
+  "author": {
+    "name": "Aidon",
+    "email": "silverblade999@outlook.com"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/AidonCason/group-deliver-message",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AidonCason/group-deliver-message.git"
+  },
   "peerDependencies": {
     "koishi": "4.17.5"
+  },
+  "koishi": {
+    "description": {
+      "zh": "群聊消息分发"
+    },
+    "service": {
+      "required": [],
+      "optional": [],
+      "implements": []
+    },
+    "locales": [
+      "zh"
+    ]
   }
 }
